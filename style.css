@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul: #042B5B;
+    --azul-escuro: #091B3A;
+    --rosa-claro: #F1C1E9;
+    --rosa-escuro: #A73D7B;
+    --black: #13131a;
+}
+
+body {
+    background-color: var(--azul);
+
+}
+
+header {
+    logo {
+        
+    }
+}
