@@ -15,8 +15,12 @@
 
 body {
     padding: 1rem 1rem;
-    background-image: url(./imagens/CAPA.png);
-    background-position: 0%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: url(./imagens/CAPA\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
     background-color: var(--azul);
     
 }
@@ -57,6 +61,7 @@ header {
     .links li a {
         transition: all 0.3s ease 0s;
         color: var(--branco);
+        padding-left: 1rem;
     }
 
     .links li a:hover {
@@ -66,7 +71,7 @@ header {
     
    li, a {
     font-family: "Content", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
    }
 }
