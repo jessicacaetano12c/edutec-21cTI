@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul: #042B5B;
+    --azul-escuro: #091B3A;
+    --rosa-claro: #F1C1E9;
+    --rosa-escuro: #A73D7B;
+    --black: #13131a;
+    --branco: #FFF;
+}
+
+.fundo {
+    background-image: url(/imagens/FUNDO\ QUIZ\ INCIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    height: 100svh;
+   
+   
+   .logo {
+       h2 {
+           color: var(--branco);
+           font-family: "Montserrat", sans-serif;
+           padding-left: 0.5rem;
+           font-size: 2rem;
+       }
+      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: auto;
+
+      margin-inline-start: 3rem;
+      padding-top: 2rem;
+   }
+}
+
+.links {
+    list-style: none;
+    
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+
+    button {
+     border-radius: 3rem;
+     background-color: var(--rosa-claro);
+     color: var(--rosa-escuro);
+     transition: all 0.3s ease 0s;
+     border: none;
+     padding-left: 2rem;
+     padding-top: 2rem;
+     font-size: 1.5rem;
+     text-decoration: none;
+
+    }
+
+    button:hover {
+     background-color: var(--rosa-escuro);
+     color: var(--rosa-claro);
+ }
+
+    li, button {
+         padding: 0rem 1.25rem;
+         margin-top: 3rem;
+         margin-right: 2rem;
+     }
+
+ }
+ 
+ .links li a {
+    transition: all 0.3s ease 0s;
+    color: var(--branco);
+    padding-left: 1rem;
+    
+}
+
+.links li a:hover {
+    color: var(--rosa-escuro);
+}
+
+li, a {
+    font-family: "Content", sans-serif;
+}
+
+button {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+li, a, button {
+font-size: 1.5rem;
+text-decoration: none;
+cursor: pointer;
+}
+
+.tituloquiz {
+    font-family: "Fredoka", sans-serif;
+    color: var(--branco);
+    font-size: 5rem;
+    margin-left: 2.8rem;
+    margin-top: 17rem;
+}
+
+.descricao {
+    font-family: "Montserrat", sans-serif;
+    color: var(--branco);
+    font-size: 2rem;
+    margin-left: 2.8rem;
+    margin-top: 1rem; 
+}
+
+.botaoiniciar a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    padding-top: ;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 2.8rem;
+    margin-top: 10rem; 
+    cursor: pointer;
+    color: #A73D7B;
+    background-color: #F1C1E9;
+    border-radius: 20%;
+}

@@ -13,23 +13,15 @@
     --branco: #FFF;
 }
 
-body {
-    padding: 1rem 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.fundo {
     background-image: url(./imagens/CAPA\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-color: var(--azul);
-    
+
 }
 
 header {
-
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+     height: 100svh;
     
     
     .logo {
@@ -37,22 +29,31 @@ header {
             color: var(--branco);
             font-family: "Montserrat", sans-serif;
             padding-left: 0.5rem;
+            font-size: 1.9rem;
         }
        
        display: flex;
        flex-direction: row;
        align-items: center;
        margin-right: auto;
+
+       margin-inline-start: 3rem;
+       padding-top: 2.5rem;
     }
 
-    .links {
+     .links {
        list-style: none;
        
+       display: flex;
+       justify-content: end;
+       flex-direction: row;
 
-        li {
-            display: inline-block;
-            padding: 0rem 1.25rem;
-            
+       
+
+       li {
+            padding: 0rem 1.5rem;
+            margin-top: 3.5rem;
+            margin-right: 2rem;
         }
 
     }
@@ -61,57 +62,55 @@ header {
         transition: all 0.3s ease 0s;
         color: var(--branco);
         padding-left: 1rem;
+        
     }
 
     .links li a:hover {
         color: var(--rosa-escuro);
     }
 
-    
+    li, a {
+        font-family: "Content", sans-serif;
+    }
+
+
    li, a {
-    font-family: "Content", sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
+    
    }
+
+   
+}
+.section1 {
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        margin-left: 2.8rem;
+        color: var(--branco);
+        margin-top: 17rem;
+        margin-left: 7rem;
+        
+        }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        color: var(--rosa-claro);
+        margin-left: 14rem;
+   
+    }
+
+    
+
 }
 
 main {
-      
-    section {
-
-        h1 {
-            font-family: "Montserrat", sans-serif;
-            font-size: 4rem;
-            margin-left: 2.8rem;
-            color: var(--branco);
-            margin-top: 11rem;
-            }
-
-        h2 {
-            font-family: "Montserrat", sans-serif;
-            font-size: 4rem;
-            margin-left: 2.8rem;
-            color: var(--rosa-claro);
-            margin-left: 10rem;
-       
-        }
-
-        .cadastre {
-            font-family: "Montserrat", sans-serif;
-            background-color: var(--rosa-claro);
-            color: var(--rosa-escuro);
-            font-size: 1.1rem;
-            padding: 0.8rem 2.8rem 0.8rem 2.8rem;
-            border-radius: 2rem;
-            transition: all 0.3s ease 0s;
-            border: none;
-        }
-        .cadastre:hover {
-            background-color: var(--rosa-escuro);
-            color: var(--rosa-claro);
-        }
-
-    }
-
+    background-color: var(--azul);
 }
+
+
+
+
 
