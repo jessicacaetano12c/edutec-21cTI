@@ -13,6 +13,10 @@
     --branco: #FFF;
 }
 
+body {
+    background-color: var(--azul);
+}
+
 .fundo {
     background-image: url(./imagens/CAPA\ \(1\).png);
     background-repeat: no-repeat;
@@ -108,6 +112,70 @@ header {
 
 main {
     background-color: var(--azul);
+
+    .carrosel {
+        background-color: var(--azul-escuro);
+        display: flex;
+
+        margin-top: 10rem;
+        margin-inline: 5.1rem;
+        border-radius: 1.8rem;
+        
+        
+        .conteudo {
+            
+            h3 {
+                font-family: "Montserrat", sans-serif;
+                color: var(--rosa-claro);
+                font-size: 2.4rem;
+                width: 24rem;
+                height: 2.4rem;
+
+                
+                margin-top: 10.6rem;
+                
+                margin-left: 6.8rem;
+            }
+    
+            p {
+                font-family: "Montserrat", sans-serif;
+                color: var(--rosa-claro);
+                font-size: 1.7rem;
+                line-height: 100%;
+                /*text-align: justify;*/
+
+                margin-left: 6.8rem;
+                margin-top: 2.8rem;
+
+            }
+            
+        }
+
+        .siema {
+            max-width: 32.75rem;
+            height: 32.75rem; 
+        }
+        .slider {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 10.6rem;
+            margin-left: 6.8rem;
+            margin-right: 4rem;
+            margin-bottom: 10.6rem;
+
+            button {
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                border: none;
+                width: 1.8rem;
+                height: 1.8rem;
+                cursor: pointer;
+            }
+        }
+    }
+    
 }
 
 

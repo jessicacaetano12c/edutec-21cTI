@@ -101,38 +101,3 @@ text-decoration: none;
 cursor: pointer;
 }
 
-.tituloquiz {
-    font-family: "Fredoka", sans-serif;
-    color: var(--branco);
-    font-size: 6rem;
-    margin-left: 2.8rem;
-    margin-top: 17rem;
-}
-
-.descricao {
-    font-family: "Montserrat", sans-serif;
-    color: var(--branco);
-    font-size: 2rem;
-    margin-left: 2.8rem;
-    margin-top: 1rem; 
-    margin-bottom: 3rem;
-}
-
-.botaoiniciar a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-left: 2.8rem;
-    margin-top: 886px; 
-    cursor: pointer;
-    color: #A73D7B;
-    background-color: #F1C1E9;
-    border-radius: 50px;
-}
-
-a:hover {
-    background-color: var(--rosa-escuro);
-    color: var(--rosa-claro);
-    transition: all 0.3s ease 0s;
-}
