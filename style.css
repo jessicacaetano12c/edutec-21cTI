@@ -7,6 +7,7 @@
 :root {
     --azul: #042B5B;
     --azul-escuro: #091B3A;
+    --azul-escuro-mais: #192874;
     --rosa-claro: #F1C1E9;
     --rosa-escuro: #A73D7B;
     --black: #13131a;
@@ -19,7 +20,7 @@ body {
 }
 
 .fundo {
-    background-image: url(./imagens/CAPA\ \(1\).png);
+    background-image: url(./imagens/image\ 4.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -114,6 +115,8 @@ header {
 main {
     background-color: var(--azul);
 
+    
+
     .carrosel {
         background-color: var(--azul-escuro);
         display: flex;
@@ -126,15 +129,14 @@ main {
         .conteudo {
             
             h3 {
-                font-family: "Montserrat", sans-serif;
+                font-family: "Playfair Display", serif;
                 color: var(--rosa-claro);
-                font-size: 2.5rem;
+                font-size: 3.5rem;
                 width: 24rem;
                 height: 2.4rem;
 
                 
-                margin-top: 10.6rem;
-                
+                margin-top: 9.7rem;
                 margin-left: 6.8rem;
             }
     
@@ -142,19 +144,30 @@ main {
                 font-family: "Montserrat", sans-serif;
                 color: var(--branco-claro);
                 font-size: 1.4rem;
-                line-height: 2.1rem;
+                line-height: 2.6rem;
                 text-align: justify;
 
                 margin-left: 6.8rem;
-                margin-top: 4.5rem;
+                margin-right: 2rem;
+                margin-top: 9rem;
+                
 
+            }
+
+            hr {
+                border: none;
+                height: 0.1rem;
+                background-color: #91657e;
+                width: 76%;
+                margin-left: 16%;
+                margin-top: 3rem;
             }
             
         }
 
         .siema {
             max-width: 32.75rem;
-            /*height: 32.75rem; */
+            
         }
         .slider {
             display: flex;
@@ -190,6 +203,16 @@ main {
                 height: 5rem;
                 cursor: pointer;
                 background: none;
+            }
+
+            .linha {
+                
+                    border: none;
+                    height: 2px;         /* espessura da linha */
+                    background-color: #000; /* cor da linha */
+                    margin: 20px 0;       /* espaçamento acima e abaixo */
+                
+                  
             }
         }
     }
@@ -257,7 +280,7 @@ main {
         }
 
                 section {
-                 margin-top: 16rem;
+                 margin-top: 15rem;
             
                     p{
                         color: var(--branco);
