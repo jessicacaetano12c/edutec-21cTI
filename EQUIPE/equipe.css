@@ -5,3 +5,258 @@
 }
 
 
+
+:root {
+    --azul: #042B5B;
+    --azul-escuro: #091B3A;
+    --azul-escuro-mais: #192874;
+    --rosa-claro: #F1C1E9;
+    --rosa-escuro: #A73D7B;
+    --black: #13131a;
+    --branco: #FFF;
+    --branco-claro: #cfb9cc;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+.fundo {
+    background-image: url(./imagens/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+     height: 100svh;
+    
+    
+    .logo {
+        h2 {
+            color: var(--branco);
+            font-family: "Montserrat", sans-serif;
+            padding-left: 0.5rem;
+            font-size: 1.9rem;
+        }
+       
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin-right: auto;
+
+       margin-inline-start: 3rem;
+       padding-top: 2.5rem;
+    }
+
+     .links {
+       list-style: none;
+       
+       display: flex;
+       justify-content: end;
+       flex-direction: row;
+
+       
+
+       li {
+            padding: 0rem 1.5rem;
+            margin-top: 3.5rem;
+            margin-right: 2rem;
+        }
+
+    }
+
+    .links li a {
+        transition: all 0.3s ease 0s;
+        color: var(--branco);
+        padding-left: 1rem;
+        
+    }
+
+    .links li a:hover {
+        color: var(--rosa-escuro);
+    }
+
+    li, a {
+        font-family: "Content", sans-serif;
+    }
+
+
+   li, a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+   }
+
+   
+}
+.section1 {
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        margin-left: 2.8rem;
+        color: var(--branco);
+        margin-top: 17rem;
+        margin-left: 7rem;
+        
+        }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        color: var(--rosa-claro);
+        margin-left: 14rem;
+   
+    }
+
+    
+
+}
+
+
+:root {
+    --azul: #042B5B;
+    --azul-escuro: #091B3A;
+    --azul-escuro-mais: #192874;
+    --rosa-claro: #F1C1E9;
+    --rosa-escuro: #A73D7B;
+    --black: #13131a;
+    --branco: #FFF;
+    --branco-claro: #cfb9cc;
+}
+
+body {
+    background-color: var(--azul);
+}
+
+.fundo {
+    background-image: url(./imagens/image\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+     height: 100svh;
+    
+    
+    .logo {
+        h2 {
+            color: var(--branco);
+            font-family: "Montserrat", sans-serif;
+            padding-left: 0.5rem;
+            font-size: 1.9rem;
+        }
+       
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin-right: auto;
+
+       margin-inline-start: 3rem;
+       padding-top: 2.5rem;
+    }
+
+     .links {
+       list-style: none;
+       
+       display: flex;
+       justify-content: end;
+       flex-direction: row;
+
+       
+
+       li {
+            padding: 0rem 1.5rem;
+            margin-top: 3.5rem;
+            margin-right: 2rem;
+        }
+
+    }
+
+    .links li a {
+        transition: all 0.3s ease 0s;
+        color: var(--branco);
+        padding-left: 1rem;
+        
+    }
+
+    .links li a:hover {
+        color: var(--rosa-escuro);
+    }
+
+    li, a {
+        font-family: "Content", sans-serif;
+    }
+
+
+   li, a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+   }
+
+   
+}
+.section1 {
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        margin-left: 2.8rem;
+        color: var(--branco);
+        margin-top: 17rem;
+        margin-left: 7rem;
+        
+        }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 6rem;
+        color: var(--rosa-claro);
+        margin-left: 14rem;
+   
+    }
+
+    
+
+}
+
+
+
+.arco {
+    position: relative;
+    height: 500px; /* altura da seção */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  /* círculo rosa */
+  .arco::before {
+    content: "";
+    position: absolute;
+    top: -60%;   /* sobe um pouco */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 1200px;
+    background: #f7a9d0; /* rosa */
+    border-radius: 50%;
+  }
+  
+  /* círculo azul escuro menor */
+  .arco::after {
+    content: "";
+    position: absolute;
+    top: -60%;   /* mesmo alinhamento do rosa */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1140px;   /* um pouco menor */
+    height: 1140px;
+    background: #0a1a57; /* azul escuro */
+    border-radius: 50%;
+  }
+  
