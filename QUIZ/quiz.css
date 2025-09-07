@@ -12,12 +12,22 @@
     --black: #13131a;
     --branco: #FFF;
 }
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
 
 .fundo {
     background-image: url(/imagens/FUNDO\ QUIZ\ INCIO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
+    background-position: center;
 
+}
+.conteudo-principal {
+    padding: 2rem;
+    padding-top: 15vh;
 }
 
 header {

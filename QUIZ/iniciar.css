@@ -11,17 +11,24 @@
     --rosa-escuro: #A73D7B;
     --black: #13131a;
     --branco: #FFF;
+    --azul-translucido: #00073480;
+    --rosa-sele: #ffe5ec;
+    --rosa-sece: #fb6f92;
+    --verde: #48A73D;
+    --vermelho: #B20003;
 }
 
-.fundo {
-    background-image: url(./imagens./quizinicio.png);
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/imagens/medusa.png);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-
 header {
-    height: 100svh;
+    height: 20svh;
    
    
    .logo {
@@ -49,18 +56,7 @@ header {
     justify-content: end;
     flex-direction: row;
 
-    button {
-     border-radius: 3rem;
-     background-color: var(--rosa-claro);
-     color: var(--rosa-escuro);
-     transition: all 0.3s ease 0s;
-     border: none;
-     padding-left: 2rem;
-     padding-top: 2rem;
-     font-size: 1.5rem;
-     text-decoration: none;
-
-    }
+    
 
     button:hover {
      background-color: var(--rosa-escuro);
@@ -99,5 +95,139 @@ li, a, button {
 font-size: 1.5rem;
 text-decoration: none;
 cursor: pointer;
+}
+
+main {
+    margin-left: 8rem;
+    align-items: flex-start;
+    display: flex;
+}
+
+ .quiz-pergunta {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: var(--branco);
+    width: 37.5rem;
+    height: 15rem;
+
+}
+
+.botoes {
+    width: 100%;
+    border-radius: 45px;
+    width: 35.2rem;
+    height: 35rem;
+    background-color: var(--azul-translucido);
+    justify-content: left;
+    flex-direction: column;
+    display: flex;
+    padding-block: 4rem;
+    padding-left: 3.5rem;
+    padding-right: 4rem;
+   
+    
+}
+
+input {
+    margin-bottom: 3rem;
+}
+
+
+.respostas {
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+
+    form {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 25.375rem;
+    }
+
+    input {
+        display: none;
+    }
+
+    label:has(input:checked){
+        font-weight: 600;
+        outline: 3px solid var(--branco);
+        background-color: var(--rosa-claro);
+        color: var(--rosa-escuro);
+        transition: 0.5s;
+    }
+
+    label#correta {
+        color: var(--branco);
+        font-weight: 600;
+        background-color: var(--verde);
+        outline: var(--verde);
+    }
+
+    label#errada {
+        font-weight: 600;
+        color: var(--branco);
+        background-color: var(--vermelho);
+        outline: var(--vermelho);
+    }
+
+    label#corrige {
+        color: var(--rosa-escuro);
+        font-weight: 600;
+        background-color: var(--rosa-claro);
+        outline: 5px solid var(--verde);
+    }
+    
+    .btn {
+        padding-block: 1.3rem;
+        border: none;
+        align-items: center;
+        display: flex;
+        border-radius: 2.19rem;
+        background-color: var(--rosa-escuro);
+        margin-bottom: 2rem;
+        padding-left: 1.5rem;
+        text-align: left;
+        font-family: "Arimo", sans-serif;
+        font-weight: 400;
+        font-size: 1.3rem;
+        color: var(--rosa-claro);
+
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+    }
+
+
+    .btn:hover {
+        background-color: var(--rosa-claro);
+        color: var(--rosa-escuro);
+        transition: 0.5s;
+    }
+
+}
+
+.proxima {
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 3.13rem;
+    background-color: var(--rosa-claro);
+    color: #A73D7B;
+    margin-top: 2rem;
+    width: 12.8484rem;
+    height: 2.5rem;
+    margin-left: 15.8rem;
+
+    button {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+  button:hover {
+    background-color: var(--rosa-escuro);
+    color: var(--rosa-claro);
+    transition: 0.3s;
 }
 

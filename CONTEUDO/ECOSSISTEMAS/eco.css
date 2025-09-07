@@ -1,0 +1,115 @@
+/* Estilo geral do carrossel */
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background: #08295C;
+}
+
+:root {
+  --azul: #042B5B;
+  --azul-escuro: #091B3A;
+  --azul-escuro-mais: #192874;
+  --rosa-claro: #F1C1E9;
+  --rosa-escuro: #A73D7B;
+  --black: #13131a;
+  --branco: #FFF;
+  --branco-claro: #cfb9cc;
+}
+
+
+header {
+  height: 100svh;
+  position: relative;
+  top: -3.625rem;
+  opacity: 1;
+  background: url('imagens/fundoHeader.jpg');
+  background-size: 91.9375rem auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(0deg);
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+  margin-inline-start: 3rem;
+  padding-top: 2.5rem;
+}
+
+.logo h2 {
+  color: var(--branco);
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0.5rem;
+  font-size: 1.9rem;
+}
+
+/* Links */
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+}
+
+.links li {
+  padding: 0rem 1.5rem;
+  margin-top: 3.5rem;
+  margin-right: 2rem;
+}
+
+.links li a {
+  transition: all 0.3s ease 0s;
+  color: var(--branco);
+  padding-left: 1rem;
+  font-family: "Content", sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  color: var(--rosa-escuro);
+}
+
+
+
+.carousel-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    background-color: #f5f5f5;
+  }
+  
+  .carousel-container::-webkit-scrollbar {
+    height: 0.5rem;
+  }
+  
+  .carousel-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 0.25rem;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    width: 18.75rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-item video {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.625rem rgba(0,0,0,0.2);
+  }
+  
+
+
