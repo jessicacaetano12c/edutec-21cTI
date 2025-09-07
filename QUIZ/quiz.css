@@ -12,18 +12,21 @@
     --black: #13131a;
     --branco: #FFF;
 }
-body, html {
-    height: 100%;
-    overflow-x: hidden;
+body {
+    background-image: url(/imagens/FUNDO\ QUIZ\ INCIO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
+
 
 .fundo {
     background-image: url(/imagens/FUNDO\ QUIZ\ INCIO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 100vh;
     background-position: center;
-
+    background-attachment: fixed; 
 }
 .conteudo-principal {
     padding: 2rem;
@@ -116,30 +119,31 @@ cursor: pointer;
     color: var(--branco);
     font-size: 6rem;
     margin-left: 2.8rem;
-    margin-top: 17rem;
+    margin-top: 4rem;
 }
 
 .descricao {
     font-family: "Montserrat", sans-serif;
     color: var(--branco);
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 2.8rem;
-    margin-top: 1rem; 
-    margin-bottom: 3rem;
+    margin-top: 0rem; 
+    margin-bottom: 2rem;
 }
 
 .botaoiniciar a {
     font-family: "Montserrat", sans-serif;
-    font-size: 3rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 2.3rem; 
+    padding: 1.2rem 4rem; 
     margin-left: 2.8rem;
-    margin-top: 886px; 
-    cursor: pointer;
+    display: inline-block;
     color: #A73D7B;
     background-color: #F1C1E9;
     border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
+
 
 .botaoiniciar a:hover {
     background-color: var(--rosa-escuro);
