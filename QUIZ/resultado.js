@@ -9,9 +9,9 @@ function inserirResultado() {
  
                 <div class="variavel">
                     <strong class="potuacao">${pontos}</strong>
-                <h2>acertos de</h2>
+                <h1>acertos de</h1>
                 </div>
-                <h2> 10 questões</h2>
+                <h1> 10 questões</h1>
 
                </div>
     `

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 :root {
@@ -28,6 +29,7 @@ body {
 
 }
 header {
+
     height: 20svh;
    
    
@@ -36,7 +38,7 @@ header {
            color: var(--branco);
            font-family: "Montserrat", sans-serif;
            padding-left: 0.5rem;
-           font-size: 2rem;
+           font-size: 1.9rem;
        }
       
       display: flex;
@@ -45,45 +47,72 @@ header {
       margin-right: auto;
 
       margin-inline-start: 3rem;
-      padding-top: 2rem;
+      padding-top: 2.5rem;
    }
+
+    .links {
+      list-style: none;
+      
+      display: flex;
+      justify-content: end;
+      flex-direction: row;
+
+      
+
+      li {
+           padding: 0rem 1.5rem;
+           margin-top: 4rem;
+           margin-right: 2rem;
+       }
+
+   }
+
+   .links li a {
+       transition: all 0.3s ease 0s;
+       color: var(--branco);
+       padding-left: 1rem;
+       
+   }
+
+   .links li a:hover {
+       color: var(--rosa-escuro);
+   }
+
+   li, a {
+       font-family: "Content", sans-serif;
+   }
+
+
+  li, a {
+   font-size: 1.5rem;
+   text-decoration: none;
+   
+  }
+
+  
 }
+.section1 {
 
-.links {
-    list-style: none;
-    
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
+   h1 {
+       font-family: "Montserrat", sans-serif;
+       font-size: 6rem;
+       margin-left: 2.8rem;
+       color: var(--branco);
+       margin-top: 17rem;
+       margin-left: 7rem;
+       
+       }
 
-    
+   h2 {
+       font-family: "Montserrat", sans-serif;
+       font-size: 6rem;
+       color: var(--rosa-claro);
+       margin-left: 14rem;
+  
+   }
 
-    button:hover {
-     background-color: var(--rosa-escuro);
-     color: var(--rosa-claro);
- }
+   
 
-    li, button {
-         padding: 0rem 1.25rem;
-         margin-top: 3rem;
-         margin-right: 2rem;
-     }
-
- }
- 
- .links li a {
-    transition: all 0.3s ease 0s;
-    color: var(--branco);
-    padding-left: 1rem;
-    
-}
-
-.links li a:hover {
-    color: var(--rosa-escuro);
-}
-
-li, a {
-    font-family: "Content", sans-serif;
 }
 
 button {

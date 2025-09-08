@@ -28,10 +28,6 @@ body {
     background-position: center;
     background-attachment: fixed; 
 }
-.conteudo-principal {
-    padding: 2rem;
-    padding-top: 15vh;
-}
 
 header {
     height: 100svh;
@@ -42,7 +38,7 @@ header {
            color: var(--branco);
            font-family: "Montserrat", sans-serif;
            padding-left: 0.5rem;
-           font-size: 2rem;
+           font-size: 1.9rem;
        }
       
       display: flex;
@@ -51,68 +47,50 @@ header {
       margin-right: auto;
 
       margin-inline-start: 3rem;
-      padding-top: 2rem;
+      padding-top: 2.5rem;
    }
-}
 
-.links {
-    list-style: none;
-    
-    display: flex;
-    justify-content: end;
-    flex-direction: row;
+    .links {
+      list-style: none;
+      
+      display: flex;
+      justify-content: end;
+      flex-direction: row;
 
-    button {
-     border-radius: 3rem;
-     background-color: var(--rosa-claro);
-     color: var(--rosa-escuro);
-     transition: all 0.3s ease 0s;
-     border: none;
-     padding-left: 2rem;
-     padding-top: 2rem;
-     font-size: 1.5rem;
-     text-decoration: none;
+      
 
-    }
+      li {
+           padding: 0rem 1.5rem;
+           margin-top: 4rem;
+           margin-right: 2rem;
+       }
 
-    button:hover {
-     background-color: var(--rosa-escuro);
-     color: var(--rosa-claro);
- }
+   }
 
-    li, button {
-         padding: 0rem 1.25rem;
-         margin-top: 3rem;
-         margin-right: 2rem;
-     }
+   .links li a {
+       transition: all 0.3s ease 0s;
+       color: var(--branco);
+       padding-left: 1rem;
+       
+   }
 
- }
- 
- .links li a {
-    transition: all 0.3s ease 0s;
-    color: var(--branco);
-    padding-left: 1rem;
-    
-}
+   .links li a:hover {
+       color: var(--rosa-escuro);
+   }
 
-.links li a:hover {
-    color: var(--rosa-escuro);
-}
+   li, a {
+       font-family: "Content", sans-serif;
+   }
 
-li, a {
-    font-family: "Content", sans-serif;
-}
 
-button {
-    font-family: "Montserrat", sans-serif;
+  li, a {
+   font-size: 1.5rem;
+   text-decoration: none;
+   
+  }
+  }
 
-}
-
-li, a, button {
-font-size: 1.5rem;
-text-decoration: none;
-cursor: pointer;
-}
+  
 
 .tituloquiz {
     font-family: "Fredoka", sans-serif;
@@ -131,10 +109,15 @@ cursor: pointer;
     margin-bottom: 2rem;
 }
 
+ 
+
 .botaoiniciar a {
+    text-align: center;
+    width: 100%;
+    max-width: 28rem;
     font-family: "Montserrat", sans-serif;
-    font-size: 2.3rem; 
-    padding: 1.2rem 4rem; 
+    font-size: 2.5rem; 
+    padding: 0.7rem 4rem; 
     margin-left: 2.8rem;
     display: inline-block;
     color: #A73D7B;

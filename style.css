@@ -27,11 +27,13 @@ body {
     
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 
 header {
-     height: 100svh;
+     height: 120svh;
+     
     
     
     .logo {
@@ -124,13 +126,19 @@ main {
     .carrosel {
         background-color: var(--azul-escuro);
         display: flex;
-
+    
         margin-top: 10rem;
         margin-inline: 20rem;
         border-radius: 1.8rem;
         max-height: 45rem;
         width: 100%;
         max-width: 79.8125rem;
+    
+       
+        margin: 10rem auto 0 auto; 
+        overflow: hidden;
+    }
+    
         
         
         
@@ -269,6 +277,7 @@ main {
         background-color: #16161d;
         margin-top: 10rem;
         margin-bottom: 10rem;
+        
 
         .questions-container{
             max-width: 50rem;
@@ -338,7 +347,7 @@ main {
                 }
         }
         
-    }
+
     
     footer {
         padding: 2rem;
@@ -391,7 +400,8 @@ main {
         }
 
         p {
-            font-family: "Montserrat", sans-serif;
+            font-family: "Arimo", sans-serif;
+            font-weight: 400;
             color: var(--branco);
         }
     }
@@ -414,11 +424,3 @@ main {
         }
         
     }
-
- 
-
-
-
-
-
-
