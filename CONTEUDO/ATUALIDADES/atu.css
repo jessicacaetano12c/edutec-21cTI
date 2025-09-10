@@ -135,10 +135,13 @@
       }
     
     .primeiro_conteudo {
+     
       display: flex;
       align-items: center;
       gap: 2rem;
       margin: 3rem;
+
+      .textocon
       
     }
     
