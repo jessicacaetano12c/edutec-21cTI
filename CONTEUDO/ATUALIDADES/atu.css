@@ -104,6 +104,13 @@
     .links li a:hover {
       color: var(--rosa-escuro);
     }
+
+    body .cabeca {
+      background-image: url(../image/cabecafundo.png);
+      background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+    }
     
     .titulo h1 {
       width: 34.75rem;
@@ -114,6 +121,8 @@
       align-items: center;
       margin-inline-start: 3rem;
     }
+
+
     
     .palavra_branca h1{
       color: var(--branco);
@@ -125,6 +134,8 @@
       margin-bottom: -50px;
       margin-top: 10px;
     }
+
+    
     
     .linha_sombra {
       width: 580px;
@@ -137,34 +148,40 @@
     .primeiro_conteudo {
      
       display: flex;
-      align-items: center;
+      align-items: start;
       gap: 2rem;
       margin: 3rem;
 
-      .textocon
       
     }
     
     .conteudo1 {
       display: flex;
-      align-items: center;
+      align-items: start;
       gap: 2rem;
       padding: 2rem;
+      
+
       p {
         color: var(--rosa-claro);
         flex: 1;
         font-size: 1.1875rem;
-        margin-right: 20px;
-        margin-left: -32px;
+        width: 50rem;
+        margin-right: 5rem;
+        margin-left: -0.5rem;
       }
     }
     
     .imagem_com_fundo{
       position: relative;
-      width: 25rem;
+      width: 30rem;
+
+      
+      
     }
     
     .imagem_fundo {
+      
       position: absolute;
       bottom: 0;
       right: 0;
@@ -175,6 +192,8 @@
       border-radius:700px;
       margin-right: -25rem;
       margin-bottom: 0.1875rem;
+
+
     }
     
     .conteudo1 img {
@@ -187,10 +206,11 @@
     
     
     .segunda_secao {
+      margin-top: 5rem;
       background-color: var(--fundo-imagem-escuro);
       width: 100%; 
       height: 100%;  
-      padding: 1rem; 
+      
       border-top-left-radius: 31.25rem; 
       border-top-right-radius: 31.25rem;
       line-height: 1.6;
@@ -244,21 +264,29 @@
     }
     
     .bloco img {
-      width: 300px;
+      width: 37.8875rem;
       height: auto;
       border-radius: 10px;
     }
     
     .bloco .texto {
+  
       max-width: 500px;
       color: var(--rosa-claro);
       font-size: 1.1rem;
       text-align: left;
+
+      h2 {
+        margin-bottom: 1rem;
+      }
     }
     
     
     
     .video_aulas {
+      margin-top: 7rem;
+      padding-bottom: 7rem;
+      max-height: 27rem;
       h1 {
         margin-left: 47px;
         margin-top: 20px;
@@ -286,12 +314,13 @@
       
       .video_carousel {
         flex: 0 0 auto;
-        width: 18.75rem;
+        width: 21.8125rem;
         cursor: pointer;
         transition: transform 0.3s ease;
       }
       
       .video_carousel:hover {
+        width: 23.8125rem;
         transform: scale(1.05);
       }
       
